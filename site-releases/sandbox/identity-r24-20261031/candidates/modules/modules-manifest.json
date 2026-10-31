@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "modules": {
+    "quotation": {
+      "sandboxVersion": "0.20.0",
+      "stableVersion": null,
+      "versions": {
+        "0.20.0": {
+          "manifest": "quotation/0.20.0/module-manifest.json",
+          "status": "sandbox-candidate",
+          "packageHash": "e51e08a00d2164d9d1bfe38d82bbd55f7616ce466c1587ad9eabeed4fe6aad89"
+        }
+      },
+      "sandboxHistory": [],
+      "label": "AI 報價中心",
+      "minCoreVersion": "v28.10.66"
+    },
+    "assistant": {
+      "sandboxVersion": "0.7.0",
+      "stableVersion": null,
+      "versions": {
+        "0.7.0": {
+          "manifest": "assistant/0.7.0/module-manifest.json",
+          "status": "sandbox-candidate",
+          "packageHash": "bb5d2253107ac5511af87a317af8670078223c46f163c476227f50a15b897df1"
+        }
+      },
+      "sandboxHistory": [],
+      "label": "AI 操作助手",
+      "minCoreVersion": "v28.10.58"
+    },
+    "quantity": {
+      "sandboxVersion": "2.1.0-alpha.8",
+      "stableVersion": null,
+      "versions": {
+        "2.1.0-alpha.8": {
+          "manifest": "quantity/2.1.0-alpha.8/module-manifest.json",
+          "status": "sandbox-candidate",
+          "packageHash": "e2f606cda6e83bf8bb5089c3a1ea361e2850c03738a4b03afd2b0778984fbc9e"
+        }
+      },
+      "sandboxHistory": [],
+      "label": "3D 算量引擎",
+      "minCoreVersion": "v28.10.58"
+    },
+    "identity": {
+      "sandboxVersion": "0.1.0-alpha.21",
+      "stableVersion": null,
+      "versions": {
+        "0.1.0-alpha.21": {
+          "manifest": "identity/0.1.0-alpha.21/module-manifest.json",
+          "status": "sandbox-candidate",
+          "packageHash": "3d47744487c126cb1ea2bb449d3bf95752aecd124190e0ccd9da84031bf04281"
+        }
+      },
+      "sandboxHistory": [],
+      "label": "人員與權限",
+      "minCoreVersion": "v28.10.66"
+    },
+    "workforce": {
+      "sandboxVersion": "0.1.0-alpha.21",
+      "stableVersion": null,
+      "versions": {
+        "0.1.0-alpha.21": {
+          "manifest": "workforce/0.1.0-alpha.21/module-manifest.json",
+          "status": "sandbox-candidate",
+          "packageHash": "501656aa234ef22d8439ba450a0892de1475bbab7ed1aa29b7503589eae0a972"
+        }
+      },
+      "sandboxHistory": [],
+      "label": "進度與報表",
+      "minCoreVersion": "v28.10.66"
+    }
+  }
+}
