@@ -7,7 +7,7 @@ export function createIdentityClient({fetchImpl=globalThis.fetch,now=Date.now,ti
  let epoch=0,session=null,preview=null,previewSequence=0;
  const inflight=new Set();
  function clear(){epoch++;session=null;preview=null;previewSequence++;for(const c of inflight)c.abort();inflight.clear();}
- function snapshot(){return session?structuredClone({person:session.person,expiresAt:session.expiresAt}):null;}
+ function snapshot(){return session?structuredClone({person:session.person,expiresAt:session.expiresAt,maintenance:session.maintenance||{active:false,message:''}}):null;}
  function active(){if(!session||session.expiresAt<=now()){clear();throw error('AUTH_REQUIRED');}return session;}
  async function send(body,{authToken=null,mutation=false,capturedEpoch=epoch,service='identity',signal=null,requestTimeout=timeoutMs}={}){
   const controller=new AbortController();inflight.add(controller);
@@ -49,7 +49,7 @@ export function createIdentityClient({fetchImpl=globalThis.fetch,now=Date.now,ti
   const s=active(),data=await send({action:'me',payload:{visible}},{authToken:s.token});
   if(!validPerson(data.person)||data.person.employeeId!==s.person.employeeId){clear();throw error('INVALID_SESSION');}
   if(data.person.revision!==s.person.revision){preview=null;previewSequence++;}
-  session={...s,person:structuredClone(data.person)};return snapshot();
+  session={...s,person:structuredClone(data.person),maintenance:structuredClone(data.maintenance||{active:false,message:''})};return snapshot();
  }
  async function plan(payload){
   const s=active(),seq=++previewSequence;preview=null;

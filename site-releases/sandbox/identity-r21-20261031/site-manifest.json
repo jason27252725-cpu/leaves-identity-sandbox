@@ -25,8 +25,8 @@
     },
     {
       "path": "candidates/core/index.html",
-      "bytes": 1074886,
-      "sha256": "781a9ff6e09212b9f4034d3639ea454adb885c8eacaa96072f4378274b295dbc"
+      "bytes": 1074109,
+      "sha256": "8cb39425d2096771eb2f59848c63183f04ae8d5e978864ecbf530078bb9274c0"
     },
     {
       "path": "candidates/modules/assistant/0.7.0/assistant.css",
@@ -360,8 +360,8 @@
     },
     {
       "path": "src/modules/identity/identity-client.mjs",
-      "bytes": 6301,
-      "sha256": "ff28566c558836e48dae1cf443915b7bb84cd0a8fe1a23f73b5d46ab0451fbff"
+      "bytes": 6433,
+      "sha256": "ef997d9ce8aed893d16c948b25aa7c75187a6e707c45f8de90d54f8885b19c4d"
     },
     {
       "path": "src/modules/identity/identity.core.mjs",
@@ -380,8 +380,8 @@
     },
     {
       "path": "src/modules/runtime/app.mjs",
-      "bytes": 7645,
-      "sha256": "1e521600b3f90d97160667797fca3ce9e6689b185c0d1f8096ee5b4165a67ef3"
+      "bytes": 7680,
+      "sha256": "41022c7d9b67b4f3bf291926344e2000e22e2ab39a74974fafd2e13d4c95139f"
     },
     {
       "path": "src/modules/runtime/branding.json",
