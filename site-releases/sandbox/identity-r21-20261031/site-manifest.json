@@ -25,8 +25,8 @@
     },
     {
       "path": "candidates/core/index.html",
-      "bytes": 1074109,
-      "sha256": "8cb39425d2096771eb2f59848c63183f04ae8d5e978864ecbf530078bb9274c0"
+      "bytes": 1074595,
+      "sha256": "46c9416a76a3b9720fa7a55a3e4271d6010a5a737afc74c39e06ced4984b98ab"
     },
     {
       "path": "candidates/modules/assistant/0.7.0/assistant.css",
