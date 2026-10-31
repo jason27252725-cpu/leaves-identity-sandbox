@@ -44,13 +44,13 @@
       "minCoreVersion": "v28.10.58"
     },
     "identity": {
-      "sandboxVersion": "0.1.0-alpha.21",
+      "sandboxVersion": "0.1.0-alpha.22",
       "stableVersion": null,
       "versions": {
-        "0.1.0-alpha.21": {
-          "manifest": "identity/0.1.0-alpha.21/module-manifest.json",
+        "0.1.0-alpha.22": {
+          "manifest": "identity/0.1.0-alpha.22/module-manifest.json",
           "status": "sandbox-candidate",
-          "packageHash": "3d47744487c126cb1ea2bb449d3bf95752aecd124190e0ccd9da84031bf04281"
+          "packageHash": "08d7e0826b27197a449b86374bb830ab9935e193c61e3edf216fd25585cafdd6"
         }
       },
       "sandboxHistory": [],
@@ -58,13 +58,13 @@
       "minCoreVersion": "v28.10.66"
     },
     "workforce": {
-      "sandboxVersion": "0.1.0-alpha.21",
+      "sandboxVersion": "0.1.0-alpha.22",
       "stableVersion": null,
       "versions": {
-        "0.1.0-alpha.21": {
-          "manifest": "workforce/0.1.0-alpha.21/module-manifest.json",
+        "0.1.0-alpha.22": {
+          "manifest": "workforce/0.1.0-alpha.22/module-manifest.json",
           "status": "sandbox-candidate",
-          "packageHash": "501656aa234ef22d8439ba450a0892de1475bbab7ed1aa29b7503589eae0a972"
+          "packageHash": "beda28f0d8e49ebeda30ffa0cff03c91ced3f868631e5137b5a84b65a420a36d"
         }
       },
       "sandboxHistory": [],
