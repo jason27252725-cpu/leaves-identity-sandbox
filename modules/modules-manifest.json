@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "modules": {
     "quotation": {
-      "sandboxVersion": "0.19.0",
+      "sandboxVersion": "0.20.0",
       "stableVersion": null,
       "versions": {
-        "0.19.0": {
-          "manifest": "quotation/0.19.0/module-manifest.json",
+        "0.20.0": {
+          "manifest": "quotation/0.20.0/module-manifest.json",
           "status": "sandbox-candidate",
-          "packageHash": "43d32b0854c26a0f6dfbb4dea49563876d8067497e9b59249639996e0bab2958"
+          "packageHash": "e51e08a00d2164d9d1bfe38d82bbd55f7616ce466c1587ad9eabeed4fe6aad89"
         }
       },
       "sandboxHistory": []
@@ -26,13 +26,13 @@
       "sandboxHistory": []
     },
     "quantity": {
-      "sandboxVersion": "2.1.0-alpha.7",
+      "sandboxVersion": "2.1.0-alpha.8",
       "stableVersion": null,
       "versions": {
-        "2.1.0-alpha.7": {
-          "manifest": "quantity/2.1.0-alpha.7/module-manifest.json",
+        "2.1.0-alpha.8": {
+          "manifest": "quantity/2.1.0-alpha.8/module-manifest.json",
           "status": "sandbox-candidate",
-          "packageHash": "788fef42711194f5e34580ec6e0b72d9eea242d00a6eb199286f3c93a88f768b"
+          "packageHash": "e2f606cda6e83bf8bb5089c3a1ea361e2850c03738a4b03afd2b0778984fbc9e"
         }
       },
       "sandboxHistory": []

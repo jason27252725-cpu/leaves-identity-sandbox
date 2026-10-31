@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-31T00:00:00.000Z",
+  "package": {
+    "schemaVersion": 2,
+    "module": "workforce",
+    "version": "0.1.0-alpha.21",
+    "minCoreVersion": "v28.10.66",
+    "dependencies": [],
+    "files": [
+      {
+        "path": "entry.mjs",
+        "bytes": 341,
+        "sha256": "d04db34c01bae5ea88aaf6563821e2c074cbe183f217080290a239f5345371b3"
+      },
+      {
+        "path": "history-model.mjs",
+        "bytes": 2755,
+        "sha256": "14a9466e61513c3a8e6fd5b5e72e3f0d873bd63be0505b06c9ca666c48cc98ae"
+      },
+      {
+        "path": "history.mjs",
+        "bytes": 5323,
+        "sha256": "d5cde6c4535178a9801ad0849360b70a41106add51f10bdb73f42142f0afc39f"
+      },
+      {
+        "path": "model.mjs",
+        "bytes": 3434,
+        "sha256": "d27f0f69b58b90351ef4c205b348c51afe437101b220117671cfe58987f349a2"
+      },
+      {
+        "path": "module-manifest.json",
+        "bytes": 308,
+        "sha256": "00f2be89bd2282313452314145495ac995dba749b99f9b6cf456dacb474d7a35"
+      },
+      {
+        "path": "report-ai.mjs",
+        "bytes": 1531,
+        "sha256": "4be64c8e4b9d305cf473f13b50e6c8f1aae886d40d5059dc8da35d07242eec7f"
+      },
+      {
+        "path": "shared/dom.mjs",
+        "bytes": 5686,
+        "sha256": "18f0c681f7776012a751e5f798bbfc1915d0d63395aeee5b0d768800c8f5314e"
+      },
+      {
+        "path": "workforce.mjs",
+        "bytes": 19788,
+        "sha256": "9436db8c03d4c839c973c19cccfb0e844fb6b8af50e6fd2b67e07bb5f3773e56"
+      },
+      {
+        "path": "xlsx.mjs",
+        "bytes": 7208,
+        "sha256": "4a7615b14feb403ce1c13a5e499249eca30b70e67d8330d7e52cc849bb32f4da"
+      }
+    ],
+    "contract": {
+      "environment": "sandbox",
+      "apiVersion": 1,
+      "maxCoreVersion": "v28.10.66",
+      "activation": "safe-point",
+      "backend": {
+        "identityApi": 1,
+        "schemaRevision": 14,
+        "capabilities": [
+          "module-contract-v2"
+        ]
+      }
+    }
+  },
+  "packageHash": "501656aa234ef22d8439ba450a0892de1475bbab7ed1aa29b7503589eae0a972"
+}
