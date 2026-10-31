@@ -360,8 +360,8 @@
     },
     {
       "path": "src/modules/identity/identity-client.mjs",
-      "bytes": 6433,
-      "sha256": "ef997d9ce8aed893d16c948b25aa7c75187a6e707c45f8de90d54f8885b19c4d"
+      "bytes": 6427,
+      "sha256": "3c2710667208750b95cd924554a9bc6477ce3e8c15aec6e95f76c2d9df71459f"
     },
     {
       "path": "src/modules/identity/identity.core.mjs",
@@ -410,8 +410,8 @@
     },
     {
       "path": "src/modules/runtime/module-loader.mjs",
-      "bytes": 1950,
-      "sha256": "8af3225a59ab6b186179b7fb0ec79c1a0f4ad49358c4c9ce9e18a8308fcb2941"
+      "bytes": 1994,
+      "sha256": "f95914559503306753de032217b1dae32aa4358674108b3b57f2f00adcab0d3f"
     },
     {
       "path": "src/modules/runtime/module-switch.mjs",
@@ -435,8 +435,8 @@
     },
     {
       "path": "src/modules/runtime/updates.mjs",
-      "bytes": 7055,
-      "sha256": "30456bab1db25d0348671410d95997a47b0989d304a54abacc06d97bd839e739"
+      "bytes": 7198,
+      "sha256": "2475b3cc013a0ccd2bdd0f1b04d7b556809fabb760144736d618fcdbea346c2b"
     },
     {
       "path": "src/modules/shared/ai-bridge.mjs",

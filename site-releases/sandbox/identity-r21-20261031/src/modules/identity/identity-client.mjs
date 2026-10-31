@@ -14,7 +14,7 @@ export function createIdentityClient({fetchImpl=globalThis.fetch,now=Date.now,ti
   const cancel=()=>controller.abort();if(signal?.aborted){inflight.delete(controller);throw error('AI_CANCELLED');}signal?.addEventListener('abort',cancel,{once:true});
   const timer=setTimeout(cancel,service==='identity'?requestTimeout:Math.max(timeoutMs,180000));
   try{
-   const endpoint=service==='identity'?ENDPOINT:ENDPOINT.replace('leaves-identity-gateway',service==='release'?'leaves-release-uploader':'leaves-site-router');
+   const endpoint=service==='identity'?ENDPOINT:service==='release'?ENDPOINT+'/release':ENDPOINT.replace('leaves-identity-gateway','leaves-site-router');
    const r=await fetchImpl(endpoint,{method:'POST',headers:{'Content-Type':'application/json',...(service==='release'?{'x-leaves-environment':'sandbox'}:{}),...(authToken?{Authorization:'Bearer '+authToken}:{})},body:JSON.stringify({...body,environment:'sandbox'}),signal:controller.signal,redirect:'error',cache:'no-store'});
    const data=await r.json();
    if(capturedEpoch!==epoch)throw error('STALE_SESSION',mutation);
