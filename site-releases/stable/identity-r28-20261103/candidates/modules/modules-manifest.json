@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "modules": {
+    "quotation": {
+      "sandboxVersion": null,
+      "stableVersion": "0.20.1",
+      "versions": {
+        "0.20.0": {
+          "manifest": "quotation/0.20.0/module-manifest.json",
+          "status": "stable-preview",
+          "packageHash": "e51e08a00d2164d9d1bfe38d82bbd55f7616ce466c1587ad9eabeed4fe6aad89"
+        },
+        "0.20.1": {
+          "manifest": "quotation/0.20.1/module-manifest.json",
+          "status": "stable-preview",
+          "packageHash": "e0cf0c465a5d2ec45a105edd493581f7ed1c51b6f6dac0897a69ceba553a730e"
+        }
+      },
+      "sandboxHistory": [],
+      "label": "AI 報價中心",
+      "minCoreVersion": "v28.10.66"
+    },
+    "assistant": {
+      "sandboxVersion": null,
+      "stableVersion": "0.7.0",
+      "versions": {
+        "0.7.0": {
+          "manifest": "assistant/0.7.0/module-manifest.json",
+          "status": "stable-preview",
+          "packageHash": "bb5d2253107ac5511af87a317af8670078223c46f163c476227f50a15b897df1"
+        }
+      },
+      "sandboxHistory": [],
+      "label": "AI 操作助手",
+      "minCoreVersion": "v28.10.58"
+    },
+    "quantity": {
+      "sandboxVersion": null,
+      "stableVersion": "2.1.0-alpha.8",
+      "versions": {
+        "2.1.0-alpha.8": {
+          "manifest": "quantity/2.1.0-alpha.8/module-manifest.json",
+          "status": "stable-preview",
+          "packageHash": "e2f606cda6e83bf8bb5089c3a1ea361e2850c03738a4b03afd2b0778984fbc9e"
+        }
+      },
+      "sandboxHistory": [],
+      "label": "3D 算量引擎",
+      "minCoreVersion": "v28.10.58"
+    },
+    "identity": {
+      "sandboxVersion": null,
+      "stableVersion": "0.1.0-alpha.23",
+      "versions": {
+        "0.1.0-alpha.23": {
+          "manifest": "identity/0.1.0-alpha.23/module-manifest.json",
+          "status": "stable-preview",
+          "packageHash": "a8bf4ce1465dee70a9cd17ad7645b5a8bf1bd1892f2bb072d907f4df4e93ba02"
+        }
+      },
+      "sandboxHistory": [],
+      "label": "人員與權限",
+      "minCoreVersion": "v28.10.66"
+    },
+    "workforce": {
+      "sandboxVersion": null,
+      "stableVersion": "0.1.0-alpha.23",
+      "versions": {
+        "0.1.0-alpha.23": {
+          "manifest": "workforce/0.1.0-alpha.23/module-manifest.json",
+          "status": "stable-preview",
+          "packageHash": "d4af7bf93b165b119e746c6fab6322f193d3ddabd18b9762b1eb4d1f807d3826"
+        }
+      },
+      "sandboxHistory": [],
+      "label": "進度與報表",
+      "minCoreVersion": "v28.10.66"
+    }
+  }
+}
