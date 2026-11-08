@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-08T00:00:00.000Z",
+  "package": {
+    "schemaVersion": 2,
+    "module": "identity",
+    "version": "0.1.0-alpha.25",
+    "minCoreVersion": "v29.0.0",
+    "dependencies": [],
+    "files": [
+      {
+        "path": "entry.mjs",
+        "bytes": 337,
+        "sha256": "649e3e2082616e8217d341cc67c1ac61049353d0fec9abb1797ad00b23665e57"
+      },
+      {
+        "path": "identity.core.mjs",
+        "bytes": 15520,
+        "sha256": "60d75cc3df4b925ad622e35d8642024c2153d23830a7f4a71f5f53bf9b141441"
+      },
+      {
+        "path": "module-manifest.json",
+        "bytes": 305,
+        "sha256": "0aed1d9d1031fbfb2e062e18c43386042ba2407187dceecd819d4a623a501cd8"
+      },
+      {
+        "path": "shared/dom.mjs",
+        "bytes": 7409,
+        "sha256": "1ecbb9ffc948d00b61f79034f43ecbcdda870e8542fd67770ed24f7e0a3c0ad7"
+      }
+    ],
+    "contract": {
+      "environment": "sandbox",
+      "apiVersion": 1,
+      "maxCoreVersion": "v29.0.0",
+      "activation": "next-login",
+      "backend": {
+        "identityApi": 1,
+        "schemaRevision": 14,
+        "capabilities": [
+          "module-contract-v2"
+        ]
+      }
+    }
+  },
+  "packageHash": "6bd7714292b880ad29d41e26f8ae7021d1100f4b2c63c0d359b5565b7ae8b87b"
+}
