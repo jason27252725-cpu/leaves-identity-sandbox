@@ -1,14 +1,14 @@
 {
   "schema": 1,
   "environment": "sandbox",
-  "releaseId": "v29.18.00",
-  "entry": "site-releases/sandbox/v29.18.00/candidates/core/index.html",
-  "manifestHash": "c4230273eaab02e635ccc441655858c8625ee0597c33bcd7c798a103ac7d1cef",
-  "operationId": "251e96bbcfb52ff28c55ad2e0a21e5026695c14669738f9decdeb3e064d64f72",
-  "previousRootSha": "60e7a69043e59398467852d483dbfbc25320f910",
-  "previousCommit": "4262cb7541caf61df4b9433cf1466ffb0530df0f",
-  "previousReleaseId": "v29.17.02",
-  "createdAt": "2026-11-11T09:17:49.284Z",
+  "releaseId": "v29.19.00",
+  "entry": "site-releases/sandbox/v29.19.00/candidates/core/index.html",
+  "manifestHash": "dac0f53a534e1c126974fdc46e6a54b30281b4e8ccb9cf836d23bcc3a629be6c",
+  "operationId": "9f5a030cf5224c6435e549a9f4fab9f9b1e2b4fbb29f74feab609234329f52c9",
+  "previousRootSha": "b1ffda6f2f1f270ff856a9b98184289880079319",
+  "previousCommit": "c66bce7aa2a93b670c703e8b7674bb753635169f",
+  "previousReleaseId": "v29.18.00",
+  "createdAt": "2026-11-11T17:09:57.037Z",
   "history": [
     {
       "releaseId": "identity-v29-release-20261105",
@@ -93,6 +93,12 @@
       "operation": "publish",
       "previousCommit": "4262cb7541caf61df4b9433cf1466ffb0530df0f",
       "createdAt": "2026-11-11T09:17:49.284Z"
+    },
+    {
+      "releaseId": "v29.19.00",
+      "operation": "publish",
+      "previousCommit": "c66bce7aa2a93b670c703e8b7674bb753635169f",
+      "createdAt": "2026-11-11T17:09:57.038Z"
     }
   ]
 }
