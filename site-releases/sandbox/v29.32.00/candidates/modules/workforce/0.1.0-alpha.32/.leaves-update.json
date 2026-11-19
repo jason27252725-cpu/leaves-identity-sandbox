@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-19T00:00:00Z",
+  "package": {
+    "schemaVersion": 2,
+    "module": "workforce",
+    "version": "0.1.0-alpha.32",
+    "minCoreVersion": "v29.0.0",
+    "dependencies": [],
+    "files": [
+      {
+        "path": "company-form.mjs",
+        "bytes": 73205,
+        "sha256": "83ab2d8cf2dff1432551dcd6130acd2f8fad55c3fa1add8a79f2c46ae78382e1"
+      },
+      {
+        "path": "company-preview.mjs",
+        "bytes": 9190,
+        "sha256": "e2a4cfc0a01162a151a282a6f6698b6116165eca41076e87a30228cd9b360836"
+      },
+      {
+        "path": "entry.mjs",
+        "bytes": 341,
+        "sha256": "515c389188419b9bd8cc1e30e4b57dbcd6722d1d77d6079b819a08fd81f7b493"
+      },
+      {
+        "path": "history-model.mjs",
+        "bytes": 2686,
+        "sha256": "f290441ef9665fe302f44f8f757e69338d42cda01517c0eb903cd640c66a56b5"
+      },
+      {
+        "path": "history.mjs",
+        "bytes": 5346,
+        "sha256": "1cedb72fa7f71fff2e35af9c622df97c6957c9f103a6437f94902874ff683f4f"
+      },
+      {
+        "path": "model.mjs",
+        "bytes": 4438,
+        "sha256": "f93a91f11df7b84524eb43e4f40089d319299d0212ba4259496e4d8be8c2d244"
+      },
+      {
+        "path": "module-manifest.json",
+        "bytes": 306,
+        "sha256": "c06e18d3f9ff37b77eca157dd4750cb1daebe3c2911a71380b8c86352b735fd2"
+      },
+      {
+        "path": "monthly.mjs",
+        "bytes": 7639,
+        "sha256": "ceb46d0332bfe82738033a9c9e095ecc58d8abc94a3b58026f7cfba9433ea2b6"
+      },
+      {
+        "path": "report-ai.mjs",
+        "bytes": 1601,
+        "sha256": "07a63dad0a24708148ef667ff54b5459a1c7b4c37eaa5d34473d58b2bf034393"
+      },
+      {
+        "path": "shared/dom.mjs",
+        "bytes": 9673,
+        "sha256": "bd039c5371e4bc315b630d3a77d7107a1f39ddd066d8d8350e037f256362f62e"
+      },
+      {
+        "path": "work-admin.mjs",
+        "bytes": 5535,
+        "sha256": "354021ed5bad3c6f0613da19c1f5ad06eab28d014ac6754d7222cc9a3e5a8074"
+      },
+      {
+        "path": "work-fields.mjs",
+        "bytes": 7915,
+        "sha256": "f3469ab8851d913ce742ad02125b619d4418eed0f942921e4a95875e4afe6ee2"
+      },
+      {
+        "path": "workforce.mjs",
+        "bytes": 27568,
+        "sha256": "7543100e3c3df41a2914c265526c1497f731fad13554092bc155f76f61fc31e3"
+      },
+      {
+        "path": "xlsx.mjs",
+        "bytes": 7290,
+        "sha256": "0bf4f0a9c56332acff1f6a2dec49d00dc978f6795ba9b6eb6be79cbb144dbc6a"
+      }
+    ],
+    "contract": {
+      "environment": "sandbox",
+      "apiVersion": 1,
+      "maxCoreVersion": "v29.0.0",
+      "activation": "safe-point",
+      "backend": {
+        "identityApi": 1,
+        "schemaRevision": 17,
+        "capabilities": [
+          "module-contract-v2",
+          "progress-leave-v1",
+          "monthly-layouts-v1",
+          "company-forms-v1",
+          "month-context-v1"
+        ]
+      }
+    }
+  },
+  "packageHash": "9ae2328fc6a92bc50a97f39e2a94ca8d732d41879de915f0910f050fa405e9d2"
+}
