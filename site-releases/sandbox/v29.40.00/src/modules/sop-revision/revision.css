@@ -1,0 +1,34 @@
+.sop-revision,.sop-review-detail {min-width:0;overflow-wrap:anywhere;color:inherit}
+.sop-revision .ai-answer-shell {min-width:0}.sop-revision .ai-answer-shell.is-settled {width:88%}
+.sop-revision .markdown-body,.sop-review-detail {container-type:inline-size}
+.sop-revision h3,.sop-review-detail h3 {font:inherit;font-weight:650;margin:0 0 .5em}
+.sop-change,.sop-review-detail p,.sop-revision .sop-context {margin-block:.55em}
+.sop-context,.sop-diff small,.sop-change small {color:#bcbcbc;font-size:.9em}
+.sop-literal {white-space:pre-wrap;overflow-wrap:anywhere;font:inherit}
+.sop-diff,.sop-full-labels,.sop-full-row {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.6rem}
+.sop-diff>div {min-width:0;background:#232323;border-radius:.42rem;padding:.55rem .7rem}
+.sop-diff small {display:block;margin-bottom:.3rem}
+.sop-full-grid {max-height:19rem;overflow:auto;align-items:start}
+.sop-full-grid pre {white-space:pre-wrap;overflow:visible;overflow-wrap:anywhere;max-height:none;font:inherit;margin:0}
+.sop-revision details,.sop-review-detail details {margin:.5em 0}
+.sop-revision summary,.sop-review-detail summary {cursor:pointer;color:#c7c7c7}
+.sop-review-detail textarea,.sop-revision textarea {box-sizing:border-box;width:100%;font:inherit;background:#161616;color:#eee;border:1px solid #464646;border-radius:.45rem;padding:.5em .65em;resize:vertical}
+.sop-actions,.sop-tools {display:flex;flex-wrap:wrap;align-items:center;gap:.45rem}
+.sop-actions {margin-top:.65em}
+.sop-actions button,.sop-stop,.sop-indicator {font:inherit;font-size:.9em;padding:.35em .65em;border:1px solid #494949;border-radius:.45rem;background:#232323;color:#eee}
+.sop-actions .primary {background:#eee;color:#181818}
+.sop-actions .sop-receipt {cursor:default}.sop-receipt span {color:#85c79a}
+.sop-message:empty {display:none}
+.sop-more {position:relative}.sop-more summary {cursor:pointer;padding:.15em .5em;list-style:none}
+.sop-more[open] {background:#242424;border-radius:.4rem;padding:.35rem}.sop-more small,.sop-more button {display:block;max-width:25em;white-space:normal}
+.sop-source[aria-pressed=true],.sop-indicator {background:#ddd;color:#181818}
+.sop-tools button:focus-visible,.sop-actions button:focus-visible {outline:2px solid currentColor;outline-offset:2px}
+.sop-review-window {width:min(52rem,calc(100vw - 1.5rem));max-width:calc(100vw - 8px);max-height:calc(100dvh - 8px);color:#eee}
+.sop-review-window .li-dialog-body {min-width:0;overflow:auto;padding:1rem 1.2rem}
+.sop-review-detail {font:inherit;line-height:1.55}.sop-review-detail .sop-actions {border-top:1px solid #424242;padding-top:.65rem}
+@container (max-width:33rem){.sop-diff {grid-template-columns:1fr}}
+
+.sop-review-window.li-shell {font:14px/1.7 var(--ui-font-family,sans-serif)}
+.sop-full-row {align-items:start}.sop-full-grid {display:block}.sop-full-row pre {padding:.3rem}
+
+.sop-diff mark {background:#434343;color:inherit;border-radius:.15em;font-weight:600;text-decoration:underline;text-decoration-color:#888;text-underline-offset:.18em}
