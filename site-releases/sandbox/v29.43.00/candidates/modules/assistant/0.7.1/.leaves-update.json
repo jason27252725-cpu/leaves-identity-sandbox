@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-28T00:00:00.000Z",
+  "package": {
+    "schemaVersion": 1,
+    "module": "assistant",
+    "version": "0.7.1",
+    "minCoreVersion": "v28.10.58",
+    "dependencies": [],
+    "files": [
+      {
+        "path": "assistant.css",
+        "bytes": 6388,
+        "sha256": "9f58b1afb86df201f353fef891d39a6c4daeec186097528a8843bd33b6fb5cda"
+      },
+      {
+        "path": "assistant.module.js",
+        "bytes": 109359,
+        "sha256": "8cf8de0390d55dc90ff76d96914ca42c11ae84183d4cd8a7da1f1dd0a83ea8f2"
+      },
+      {
+        "path": "module-manifest.json",
+        "bytes": 1073,
+        "sha256": "a1ec926bed7a03bbbf304be0eea8778c6a4248ba575494a1fff5828bfdde3076"
+      }
+    ]
+  },
+  "packageHash": "23d021fc978e2d91f4f1a465fa7b22e6dceb3868608f1ae82f0f26354503fea8"
+}
