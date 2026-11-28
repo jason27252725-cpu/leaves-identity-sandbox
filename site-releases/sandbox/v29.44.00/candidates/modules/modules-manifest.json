@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "modules": {
+    "quotation": {
+      "sandboxVersion": "0.20.4",
+      "stableVersion": null,
+      "versions": {
+        "0.20.4": {
+          "manifest": "quotation/0.20.4/module-manifest.json",
+          "status": "sandbox-candidate",
+          "packageHash": "092710eaf4de9fe38b499d93dfbc7aaf1bea184ddb894d33b8cf7f44b8a3fadd"
+        }
+      },
+      "sandboxHistory": [],
+      "label": "AI 報價中心",
+      "minCoreVersion": "v28.10.66"
+    },
+    "assistant": {
+      "sandboxVersion": "0.7.1",
+      "stableVersion": null,
+      "versions": {
+        "0.7.1": {
+          "manifest": "assistant/0.7.1/module-manifest.json",
+          "status": "sandbox-candidate",
+          "packageHash": "23d021fc978e2d91f4f1a465fa7b22e6dceb3868608f1ae82f0f26354503fea8"
+        }
+      },
+      "sandboxHistory": [],
+      "label": "AI 操作助手",
+      "minCoreVersion": "v28.10.58"
+    },
+    "quantity": {
+      "sandboxVersion": "2.1.0-alpha.10",
+      "stableVersion": null,
+      "versions": {
+        "2.1.0-alpha.10": {
+          "manifest": "quantity/2.1.0-alpha.10/module-manifest.json",
+          "status": "sandbox-candidate",
+          "packageHash": "8bea5bb5d5bf57b88af8d12818762c552911faa413bab766576d2e72dc7fd077"
+        }
+      },
+      "sandboxHistory": [],
+      "label": "3D 算量引擎",
+      "minCoreVersion": "v28.10.58"
+    },
+    "identity": {
+      "sandboxVersion": "0.1.0-alpha.31",
+      "stableVersion": null,
+      "versions": {
+        "0.1.0-alpha.31": {
+          "manifest": "identity/0.1.0-alpha.31/module-manifest.json",
+          "packageHash": "7da7c4ed8ccee79224617ff0f4fe7a7d01a68c230c1d20d0f1304b11c021f8f4"
+        }
+      },
+      "sandboxHistory": [],
+      "label": "人員與權限",
+      "minCoreVersion": "v29.0.0"
+    },
+    "workforce": {
+      "sandboxVersion": "0.1.0-alpha.38",
+      "stableVersion": null,
+      "versions": {
+        "0.1.0-alpha.38": {
+          "manifest": "workforce/0.1.0-alpha.38/module-manifest.json",
+          "status": "sandbox-candidate",
+          "packageHash": "0d9a8b0d6cbf275e04d99020e0336bac90abf702822e8b203e7478f0caf1023d"
+        }
+      },
+      "sandboxHistory": [],
+      "label": "進度與報表",
+      "minCoreVersion": "v29.0.0"
+    }
+  }
+}
